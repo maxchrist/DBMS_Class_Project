@@ -15,8 +15,8 @@ Download and install PostgreSQL from
 
 # Running the application
 After PostgreSQL is installed, set up a basic database to use. Then load and run schema.sql using the database query tool. Also run load.sql using the query tool. Next, edit the database.ini file so that it uses the login credentials for the newly created database. 
-Finally, opne a terminal at the "code" folder, and run 
+Finally, open a terminal at the "code" folder, and run 
 ```
 $ streamlit run project.py --server.address=localhost -- server.port=5432
 ```
-but resplace 5432 with the port that your database is running on. 
+but replace 5432 with the port that your database is running on. 
